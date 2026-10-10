@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Dağıtım / Paketleme çıktıları
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec.bak
+
+# Sanal Ortamlar
+.venv/
+venv/
+ENV/
+env/
+
+# libVLC yerel ikilileri (Tools betiği ile temin edilir)
+vendor/vlc/
+
+# Uygulama önbellek ve test medyası
+test_media/
+cache/
+logs/
+*.log
+
+# IDE ve İşletim Sistemi
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
